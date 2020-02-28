@@ -1,0 +1,105 @@
+Welcome to Camel!
+
+In your desperation, you have stolen a camel to make your way across
+the great Mobi desert.
+The locals want their camel back and are chasing you down! Survive
+your desert trek and out run the locals.
+print("Welcome to Camel!)
+
+# Lab 04: Camel game
+import random
+
+# Introduction
+print("Welcome to Camel!")
+print("You have stolen a camel to make your way across the Mobi Desert.")
+print("The natives want their camel back and are chasing you down! Survive your")
+print("Desert trek and out run the natives.")
+print()
+
+# initiate variables
+done = False
+milesTraveled = 0
+nativesTraveled = -20
+camelTiredness = 0
+thirst = 0
+canteen = 3
+oasis = -1
+# Game loop
+while not done :
+        
+    # options
+    print("A. Drink from your canteen.")
+    print("B. Ahead moderate speed.")
+    print("C. Ahead full speed.")
+    print("D. Stop for the night.")
+    print("E. Status check.")
+    print("Q. Quit.")
+    print()
+    
+
+A. Drink from your canteen.
+B. Ahead moderate speed.
+C. Ahead full speed.
+D. Stop and rest.
+E. Status check.
+Q. Quit.
+Your choice? C
+
+You traveled 12 miles.
+
+A. Drink from your canteen.
+B. Ahead moderate speed.
+C. Ahead full speed.
+D. Stop and rest.
+E. Status check.
+Q. Quit.
+Your choice? C
+
+You traveled 17 miles.
+
+A. Drink from your canteen.
+B. Ahead moderate speed.
+C. Ahead full speed.
+D. Stop and rest.
+E. Status check.
+Q. Quit.
+Your choice? e
+
+Miles traveled:  29
+Drinks in canteen:  3
+The locals are 31 miles behind you.
+
+A. Drink from your canteen.
+B. Ahead moderate speed.
+C. Ahead full speed.
+D. Stop and rest.
+E. Status check.
+Q. Quit.
+Your choice? b
+
+You traveled 6 miles.
+
+...and so on until...
+
+A. Drink from your canteen.
+B. Ahead moderate speed.
+C. Ahead full speed.
+D. Stop and rest.
+E. Status check.
+Q. Quit.
+Your choice? C
+
+You traveled 12 miles.
+The locals are getting close!
+
+A. Drink from your canteen.
+B. Ahead moderate speed.
+C. Ahead full speed.
+D. Stop and rest.
+E. Status check.
+Q. Quit.
+Your choice? C
+
+You traveled 11 miles.
+The locals are getting close!
+You made it across the desert! You won!
